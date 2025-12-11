@@ -1,0 +1,61 @@
+body {
+    background: #0d0a0f;
+    color: #e6d4ff;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #c59aff;
+}
+
+#slot-machine {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.reel {
+    width: 100px;
+    height: 100px;
+    background: #1b1520;
+    border: 2px solid #4b2d67;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: #ffbdfd;
+    box-shadow: 0px 0px 12px #6b3ea3;
+}
+
+#spin-btn {
+    background: #4b2d67;
+    border: none;
+    padding: 12px 25px;
+    color: #e6d4ff;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #6b3ea3;
+}
+
+#spin-btn:hover {
+    background: #6b3ea3;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ff9bf9;
+}
