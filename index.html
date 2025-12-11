@@ -1,27 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Velvet Dominion Engine</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 <body>
+    <div class="vd-wrapper">
+        <h1 class="vd-title">THE HOUSE OF VELVET DOMINION</h1>
 
-<div class="container">
-    <h1 class="title">THE HOUSE OF VELVET DOMINION</h1>
+        <div class="vd-slot">
+            <div class="vd-reel" id="reel1"></div>
+            <div class="vd-reel" id="reel2"></div>
+            <div class="vd-reel" id="reel3"></div>
+        </div>
 
-    <div id="slot-machine">
-        <div class="reel" id="reel1">👑</div>
-        <div class="reel" id="reel2">💎</div>
-        <div class="reel" id="reel3">🕯️</div>
+        <button id="spin-btn" class="vd-spin-btn">
+            <span class="sigil">⟡</span> SPIN <span class="sigil">⟡</span>
+        </button>
+
+        <div id="result" class="vd-result"></div>
+
+        <canvas id="vd-smoke"></canvas>
     </div>
 
-    <button id="spin-btn">SPIN</button>
-
-    <div id="result"></div>
-</div>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
-</html>
