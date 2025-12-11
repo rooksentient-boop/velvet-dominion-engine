@@ -86,28 +86,4 @@ body {
     0% { transform: translateY(0); opacity: 0.6; }
     50% { transform: translateY(-40%); opacity: 0.3; filter: blur(2px); }
     100% { transform: translateY(0); opacity: 0.6; }
-}    color: #ffbdfd;
-    box-shadow: 0px 0px 12px #6b3ea3;
-}
-
-#spin-btn {
-    background: #4b2d67;
-    border: none;
-    padding: 12px 25px;
-    color: #e6d4ff;
-    border-radius: 8px;
-    font-size: 18px;
-    margin-top: 20px;
-    cursor: pointer;
-    box-shadow: 0px 0px 10px #6b3ea3;
-}
-
-#spin-btn:hover {
-    background: #6b3ea3;
-}
-
-#result {
-    margin-top: 20px;
-    font-size: 20px;
-    color: #ff9bf9;
 }
